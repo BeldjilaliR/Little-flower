@@ -1,0 +1,57 @@
+header{
+	margin: 150px;
+}
+.baniere{
+    border: solid 2px rgb(238, 35, 171);
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    bottom: 30%;
+    left: -1%;
+    width: 100%;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    position: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text-baniere p{
+    font-size: large;
+}
+.button-baniere{
+    padding: 15 px;
+    display: inline-block;
+    width: 30%;
+}
+.button-baniere a{
+    border:solid 1px rgb(56, 126, 255);
+    padding: 3 px;
+    background: rgb(238, 35, 161);
+    border-radius: 7  px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+}
+nav.menu-nav ul li{
+    list-style-type: none;
+    border: solid 1px rgb(64, 176, 240);
+    background-color: aliceblue;
+    color: rgb(238, 35, 171);
+    padding: 2px;
+    display: inline-block;
+    text-align: initial;
+    font-size: 40px;
+
+}
+.button-baniere:hover a{
+    color:black;
+    background-color: white;
+
+}
+header{
+    background-image: url(img1/loading.gif);
+    height: 70vh;
+    background-size: cover;
+    background-position: right;
+    
+}

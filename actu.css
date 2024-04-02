@@ -1,0 +1,10 @@
+body{
+    background-image: url(img1/20180328210415-44cde776.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    width: 1000px;
+}
+footer{
+    color: red
+}

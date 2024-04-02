@@ -1,0 +1,75 @@
+h1{
+    text-align: initial;
+    text-transform: capitalize;
+    border: 2px solid rgb(56, 126, 255);
+    color: rgb(238, 35, 171);
+    background-color: rgb(165, 200, 231);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);    
+}
+
+nav.menu-nav ul li{
+    list-style-type: none;
+    border: solid 1px rgb(64, 176, 240),red;
+    background-color: aliceblue;
+    color: rgb(238, 35, 171);
+    padding: 2px;
+    display: inline-block;
+    text-align: initial;
+    font-size: 40px;
+}
+
+nav.menu-nav ul li.btn a{
+    color: hotpink;
+    text-decoration: none;
+}
+
+nav.menu-nav ul li.btn:hover a{
+    color: rgb(127, 195, 240);
+    background-color: hotpink;
+    transition: 0.3s all;
+}
+
+header{
+    background-color: rgb(119, 202, 251);
+    
+   
+}
+div#content div{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    display: inline-block;
+    width: 49%;
+    margin: 15px;
+}
+
+div#content div.leftbox{
+    background-color: skyblue;
+    display: inline-block;
+}
+.image1 {
+    background-color: aqua;
+    width: 49%;
+}
+.image4 {
+    background-color: blue;
+    width: 49%
+}
+.image3 {
+    background-color: blueviolet;
+    width: 49%;
+}
+.image2 {
+    background-color: yellow;
+    width: 49%;
+    position: relative ;
+    top: 100px;
+    left: 25%;
+    right: 0%;
+}
+iframe{
+    margin: 23%;
+    margin-top: 5%;
+}

@@ -1,0 +1,39 @@
+h2{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    color: rgb(238, 35, 171);
+    text-decoration: underline double;
+    text-transform: capitalize;
+}
+
+.grille{
+    margin-top: 50px;
+    max-width: 1300px;
+    width: 80%;
+    height: auto;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: center;
+    grid-gap: 100px;
+}
+
+.grid-item{
+    width: 300px ;
+    height: 375px;
+    background-color:whitesmoke;
+}
+p{
+    color: hotpink;
+    margin: 42%;
+    margin-top: 0%;
+}
+P1{
+    color: hotpink;
+
+}
+footer{
+    background-color: whitesmoke;
+}

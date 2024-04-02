@@ -1,0 +1,54 @@
+#slide {
+    width: 640px;
+    overflow: auto;
+    border: 2px solid rgb(127, 195, 240);
+    display: flex; 
+    margin: 25%;
+    margin-top: 5%;
+}
+body{ 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(253, 253, 253);
+}
+.mesImages {
+    display: flex; 
+    animation-duration: 15s ;
+    animation-name: mesImages;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes mesImages {
+    0%{
+        transform: translateX(0);
+
+    }
+    20%{
+        transform: translateX(-640px);
+    }
+    40%{
+        transform: translateX(-1280px);
+    }
+    60%{
+        transform: translateX(-1920px);
+    }
+    80%{
+        transform: translateX(-2560px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.texte1 {
+    border: 2px solid hotpink;
+    margin-left: 40%;
+    margin-right: 38%;
+}
+image{
+    align-items: center;
+}
+footer{
+    margin-top: 0%;
+}

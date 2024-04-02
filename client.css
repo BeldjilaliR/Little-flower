@@ -1,0 +1,29 @@
+body{
+    background-image: url(img1/spring-4351.gif);
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.div__next{
+    color: blue;
+}
+h1{
+    text-align: initial;
+    text-transform: capitalize;
+    border: 2px solid rgb(238, 35, 171);
+    color: rgb(238, 35, 171);
+    background-color: rgb(165, 200, 231);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);    
+    margin-top: 50px;
+}
+p{
+    color: hotpink;
+    background-color: rgb(255, 255, 255,0.9)/*blanc transparant*/;
+}
